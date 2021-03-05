@@ -2,6 +2,9 @@ import { React } from 'react';
 import '../../App.css'
 
 export default function Contacts(){
-    return <h1 className='Contacts'>Contacts</h1>;
+    return <div className='Contacts'>
+           <image src='/images/Background3.jpeg'></image>
+          <h1>Contacts</h1>
+        
+    </div>
 }
-

@@ -13,7 +13,7 @@ function Cards(){
                         src='images/MurderMystery.gif'
                         text='Murder Mystery'
                         label='Gamers'
-                        path='/Portafolio'
+                        path='https://inhumans-murder-mystery.herokuapp.com/'
                         />
                         <CardItem
                         src='images/WeatherDash.gif'

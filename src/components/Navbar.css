@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: black;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -114,13 +114,7 @@
       border-radius: 0;
     }
   
-    .navbar-logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
-    }
-  
+
     .menu-icon {
       display: block;
       position: absolute;

@@ -7,6 +7,7 @@ import Home from './components/pages/Home';
 import Contacts from './components/pages/Contact';
 import Portafolio from './components/pages/Portafolio';
 import About from './components/pages/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,12 +17,14 @@ function App() {
       <Switch>
         <Route path='/' exact component=
         {Home} />
-        <Route path='/' exact component=
+        <Route path='/Contact' exact component=
         {Contacts} />
-        <Route path='/' exact component=
+        <Route path='/Portafolio' exact component=
         {Portafolio} />
-        <Route path='/' exact component=
+        <Route path='/About' exact component=
         {About} />
+        <Route path='/Footer' exact component=
+        {Footer} />
       </Switch>
     </Router>
     </>
