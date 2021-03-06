@@ -8,6 +8,9 @@ import Contacts from './components/pages/Contact';
 import Portafolio from './components/pages/Portafolio';
 import About from './components/pages/About';
 import Footer from './components/Footer';
+// import SignUp from './components/pages/SignUp';
+import Work from './components/pages/Work';
+
 
 function App() {
   return (
@@ -23,6 +26,8 @@ function App() {
         {Portafolio} />
         <Route path='/About' exact component=
         {About} />
+        <Route path='/Work' exact component=
+        {Work} />
         <Route path='/Footer' exact component=
         {Footer} />
       </Switch>

@@ -1,11 +1,13 @@
 import { React } from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import { NavLink } from "react-router-dom";
+import Portafolio from './pages/Portafolio';
 
 function Cards(){
     return (
         <div className='cards'>
-            <h1>Projects</h1>
+            <h1>Portafolio</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
@@ -13,7 +15,7 @@ function Cards(){
                         src='images/MurderMystery.gif'
                         text='Murder Mystery'
                         label='Gamers'
-                        path='https://inhumans-murder-mystery.herokuapp.com/'
+                        path='/'
                         />
                         <CardItem
                         src='images/WeatherDash.gif'
@@ -31,7 +33,7 @@ function Cards(){
                         />
                         <CardItem
                         src='images/QuizPop.gif'
-                        text='QuizPop'
+                        text='PopQuiz'
                         label='Javascript'
                         path='/Portafolio'
                         />

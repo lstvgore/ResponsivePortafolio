@@ -12,7 +12,7 @@ function HeroSection() {
             <p>Marketing and Programming</p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline'
-                buttonSize='btn--large'>About Me</Button>
+                buttonSize='btn--medium'>About Me</Button>
                 <Button className='btns' buttonStyle='btn--primary'
                 buttonSize='btn--large'>Photos<i className='far fa-play-circle'/> </Button>
             </div>
