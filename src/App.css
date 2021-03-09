@@ -26,12 +26,21 @@
   font-size: 3rem;
  }
 
+ 
+
  .PortafolioH1 {
    position: absolute;
    top: 400px;
    color: black !important;
 
  }
+
+ .ContactsH1 {
+  position: absolute;
+  top: 400px;
+  color: black !important;
+
+}
 
  .WorkH1 {
   position: absolute;
@@ -58,6 +67,7 @@
  }
 
 
+
 .Contacts {
   background-image: url(./images/Background6.jpg);
   background-position: center;
@@ -78,20 +88,35 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 30%;
+  padding-top: 10%;
+  padding-left:45%;
   color:red;
   font-size: 100px;
   display: flex;
-  height: 130vh;
+  height: 120vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
+.TextAbout {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-right: 120%;
+  padding-top: 1725%;
+  font-family: 'Work Sans', sans-serif;
+  color: black;
+  font-size: 45%;
+
+}
+
 .title {
   text-align: center;
+  margin-left: 100%;
   color: #FFF;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   height: 100vh;
