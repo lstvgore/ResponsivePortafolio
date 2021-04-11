@@ -1,8 +1,8 @@
 import { React } from 'react';
 import '../../App.css'
 import Footer from '../Footer';
-import Cards from '../Cards';
 import { NavLink } from "react-router-dom";
+import CardsPort from '../CardsPort';
 
 export default function Portafolio() {
     return (
@@ -13,9 +13,8 @@ export default function Portafolio() {
                 <br />
             </div>
             <div className='Portafolio-cards'>
-                <Cards />
+                <CardsPort />
                 <Footer />
-
             </div>
         </>
     )

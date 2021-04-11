@@ -29,7 +29,6 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Marketing</Link>
             <Link to='/'>Production</Link>
@@ -38,7 +37,13 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
-            <Link to='/github.com/lstvgore'>GitHub</Link>
+            <a
+              href="https://github.com/lstvgore"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
             <Link to='/'>Email</Link>
             <Link to='/'>Phone</Link>
           </div>
@@ -51,9 +56,20 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='github.com/lstvgore'>GitHub</Link>
-            <Link to='/'>linkedin</Link>
-            <Link to='/'>Instagram</Link>
+            <a
+              href="https://www.instagram.com/stvgore"
+              target="_blank"
+              rel="noreferrer"
+            >
+              instagram
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lestergore"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkdIn
+            </a>
           </div>
         </div>
       </div>
@@ -61,35 +77,32 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            LSGORE
+              LSGORE
             </Link>
           </div>
           <small class='website-rights'>LSGORE © 2021</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link Github'
-              to='/github.com/lstvgore'
-              target='_blank'
-              aria-label='GitHub'
+            <a
+              href="https://github.com/lstvgore"
+              target="_blank"
+              rel="noreferrer"
             >
               <i class='fab fa-github' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
+            </a>
+            <a
+              href="https://www.instagram.com/stvgore"
+              target="_blank"
+              rel="noreferrer"
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lestergore"
+              target="_blank"
+              rel="noreferrer"
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

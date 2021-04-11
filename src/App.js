@@ -13,26 +13,27 @@ import Work from './components/pages/Work';
 
 
 
+
 function App() {
   return (
     <>
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route path='/' exact component=
-        {Home} />
-        <Route path='/Contact' exact component=
-        {Contacts} />
-        <Route path='/Portafolio' exact component=
-        {Portafolio} />
-        <Route path='/About' exact component=
-        {About} />
-        <Route path='/Work' exact component=
-        {Work} />
-        <Route path='/Footer' exact component=
-        {Footer} />
-      </Switch>
-    </Router>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component=
+            {Home} />
+          <Route path='/Contact' exact component=
+            {Contacts} />
+          <Route path='/Portafolio' exact component=
+            {Portafolio} />
+          <Route path='/About' exact component=
+            {About} />
+          <Route path='/Work' exact component=
+            {Work} />
+          <Route path='/Footer' exact component=
+            {Footer} />
+        </Switch>
+      </Router>
     </>
   );
 }
